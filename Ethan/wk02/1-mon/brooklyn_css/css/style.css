@@ -1,0 +1,40 @@
+body {
+	margin: 0 auto;
+	width: 960px;
+}
+
+.one {
+	width: 300px;
+}
+
+.highlight {
+	color: blue;
+	font-size: 11px;
+}
+
+p {
+	font-size: 15px;
+	color: grey;
+	
+}
+
+h2 {
+	color: grey;
+	font-size: 18px;
+}
+
+footer {
+	font-size: 10px;
+}
+
+.text {
+	width: 1010px;
+
+}
+
+
+.imagesbottom img {
+width: 230px;
+border: 3px solid lightgrey;
+}
+

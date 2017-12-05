@@ -1,0 +1,69 @@
+body {
+	background-color: lightgrey;
+	margin: 0 auto;
+	width: 800px;
+}
+
+
+.one, .two {
+	display: inline-block;
+	vertical-align: top;
+	border: 5px solid lightgrey;
+	padding: 20px;
+
+}
+
+.one {
+	width: 60%;
+	float:left;
+	background-color: white;
+
+	
+}
+
+.two {
+	width: 20%;
+	background-color: white;
+
+
+	
+}
+
+img {
+	 width: 480px;
+	 height: auto;
+}
+
+.three img {
+	 width: 160px;
+	 height: auto;
+}
+
+.four img {
+	 width: 40px;
+	 height: auto;
+}
+
+.five p {
+	 width: 800px;
+	text-align: center;
+}
+
+.six img {
+	width: 100px;
+	 height: auto;
+	 
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
