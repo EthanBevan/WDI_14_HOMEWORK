@@ -15,10 +15,9 @@ body {
 	display: inline-block;
 	border: 0.1px solid white;
 	color: white;
-	padding: 10px;
-	margin: 0.2px;
+	padding: 10px 35px;
 	background-color: black;
-	
+
 }
 
 .top ul {
@@ -51,7 +50,7 @@ font-size: 12px;
 
 }
 
-footer li {
+footer2 li {
 	display: inline-block;
 	border: 1px solid white;
 	padding: 1px;

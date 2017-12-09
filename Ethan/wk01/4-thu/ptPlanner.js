@@ -3,9 +3,30 @@ var GlenWaverly = ['Flag Staff', 'Melbourne Central', 'Paliament', 'Richmond','K
 var Sandringham = ['Southern Cross', 'Richmond', 'South Yarra', 'Prahran', 'Windsor']
 
 var origin = 'Flag Staff'
-var destination = 'Paliament'
+var destination = 'Paliament' 
 
 
+for (i = origin; i < destination; i++) {
+	console.log(Almein.indexOf([0]) 
+}
+
+
+// incomplete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 var trip1 = (origin + ' --> Paliament --> ' + destination)
 var trip2 = (origin + ' --> Melbourne Central --> ' + destination)
 
@@ -14,7 +35,7 @@ if (origin === 'Melbourne Central' && destination ==='Richmond') {
 } else {
 	console.log(trip2)
 }
-
+*/
 
 /*
 all the lines
