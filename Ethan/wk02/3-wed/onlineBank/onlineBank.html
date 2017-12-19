@@ -8,42 +8,44 @@
 	<div class="title">
 		<h1>ONLINE BANK</h1>
 	</div>
-
-
+	
 	<div class="logo">
 		<h2>LOGO</h2>
 	</div>
 
 </head>
+
+
+
 <body>
+	<div class="savingBox">
+		<h3>Saving</h3>
+		<p>Your balance is:</p>
 
-
-
-
-
-	<div class="sav">
-		<h2>SAVINGS</h2>
-		<p>your balance is...</p>
-
-		<p class='dollar'>$ <span class='displaySav'> </span> </p>
-
-		<input class="num1" type="text"> =<span></span><button>WITHDRAW</button>
-		<input class="num2" type="text"> =<span></span><button>DEPOSIT</button>
-	</div>
-
-
-
-
-
-	<div class="check">
+		<p class='dollarSign'>$<span class='displaySaving'>00</span>.00</p>
 		
-	<h2>CHECKING</h2>
-		<p>your balance is...</p>
-		<h3>$00.00</h3>
-		<input class="num2" type="text"> =<span></span> 
-		<button>WITHDRAW</button><button>DEPOSIT</button>
+		<input class="inputSaving" type="text" placeholder="Enter amount">
 		
+		<div class="buttons">
+		<button class="withdrawSaving">Withdraw</button><button class="depositSaving">Deposit</button>
+		</div>
 	</div>
+		
+
+
+	<div class="checkingBox">
+		<h3>Checking</h3>
+		<p>Your balance is:</p>
+
+		<p class='dollarSign'>$<span class='displayChecking'>00</span>.00</p>
+
+		<input class="inputChecking" type="text" placeholder="Enter amount">
+
+		<div class="buttons">
+		<button class="withdrawChecking">Withdraw</button><button class="depositChecking">Deposit</button>
+		</div>
+	</div>
+		
 
 <script src="online.js"></script>
 </body>

@@ -9,6 +9,7 @@ body {
 }
 
 .logo{
+	text-align: center;
 	background-color: red;
 	padding: 10px 80px 10px 80px;
 	border: 10px solid white;
@@ -17,57 +18,65 @@ body {
 
 }
 
-.left .right {
-	
-	
-}
-
-.sav{
+.savingBox {
 	display: inline-block;
 	float: left;
-	vertical-align: top;
-	width: 50%;
+	width: 20%;
 	padding: 20px 40px 20px 40px;
 	background-color: orange;
 	border: 80px solid white;
-	width: 30%;
+	}
 
-}
 
-.check{
+.checkingBox {
 	display: inline-block;
 	float: left;
-	vertical-align: top;
-	width: 10%;
+	width: 20%;
 	padding: 20px 40px 20px 40px;
-	background-color: yellow;
+	background-color: gold;
 	border: 80px solid white;
-	width: 30%;
+	
+}
+
+
+h3 {
+	text-align: center;
 }
 
 p {
 	text-align: center;
+	color: white;
 
 }
 
-h1 {
-text-align: center;
+.dollarSign {
+	font-color: white;
 }
 
-h2 {
-text-align: center;
+.displaySaving {
+	font-color: white;
 }
 
-h3 {
-	text-align: center;
-
-}
 
 span {
-	color: white;
-	padding: 10px;
-	text-align: center;
+	font-color: white;
 }
+
+input {
+ text-align: center;
+ padding: 10px;
+ margin: 22px;
+}
+
+.buttons {
+text-align: center;
+}
+
+
+
+
+
+
 
 
 
