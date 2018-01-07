@@ -1,3 +1,72 @@
+//Saving
+//Display
+var balanceS = document.querySelector('.balanceDisplay')
+//Inputs
+var enterAmountS = document.querySelector('.enterAmount');
+//Saving
+var withdrawSaving = document.querySelector('.withdraw');
+var depositSaving = document.querySelector('.deposit');
+
+//Checking
+//Display
+var balanceC = document.querySelectorAll('.balanceDisplay')[1]
+//Inputs
+var enterAmountC = document.querySelectorAll('.enterAmount')[1]
+//Checking
+var withdrawChecking = document.querySelectorAll('.withdraw')[1]
+var depositChecking = document.querySelectorAll('.deposit')[1]
+
+
+
+//Saving functions to be called.
+
+function depositS () {
+ balanceS.textContent = Number(balanceS.textContent) + Number(enterAmountS.value)
+}
+
+function withdrawS () {
+  balanceS.textContent = Number(balanceS.textContent) - Number(enterAmountS.value)
+}
+
+
+//checking functions to be called
+function depositC () {
+	balanceC.textContent = Number(balanceC.textContent) + Number(enterAmountC.value)
+}
+
+function withDrawC () {
+	balanceC.textContent = Number(balanceC.textContent) - Number(enterAmountC.value)
+}
+
+//Checking
+withdrawChecking.addEventListener('click',withDrawC)
+depositChecking.addEventListener('click',depositC)
+
+//Saving
+withdrawSaving.addEventListener('click', withdrawS)
+depositSaving.addEventListener('click', depositS)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+var balance = document.querySelector('.displaySaving'); 
+
 //Display
 var displaySaving = document.querySelector('.displaySaving'); 
 var displayChecking = document.querySelector('.displayChecking');
@@ -25,51 +94,14 @@ function minusMoneyS (){
 }
 
 depositSaving.addEventListener('click',addMoneyS)
-withdrawSaving.addEventListener('click',minusMoneyS)
+//withdrawSaving.addEventListener('click',minusMoneyS)
 
 
 
 
-
-
-
-
-
-
-
-
-/*
-function depositOndisplaySaving () {
-	if (Saving >= 0 || Checking >= 0) {
-		Saving = Number(inputSaving.value) + Saving;
-		displaySaving.textContent = Saving;
-		inputSaving.value = "";
-	}
-}
-
-function depositOndisplayChecking () {
-	if (moneyOndisplayChecking >= 0 || moneyOndisplayChecking >= 0) {
-		moneyOndisplayChecking = Number(inputChecking.value) + moneyOndisplayChecking;
-		displayChecking.textContent = moneyOndisplayChecking;
-		inputChecking.value = "";
-	}
-}
 */
 
 
-
-
-
-
-
-/*
-//Buttons events clicking
-//withdrawSaving.addEventListener('click', withdrawOnSaving)
-//withdrawChecking.addEventListener('click', withdrawOnChecking)
-
-depositSaving.addEventListener('click', depositOndisplaySaving)
-depositChecking.addEventListener('click', depositOndisplayChecking)
-*/
 
 
 

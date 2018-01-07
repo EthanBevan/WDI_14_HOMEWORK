@@ -5,38 +5,84 @@ body {
 
 .title {
 	text-align: center;
+	background-color: lightgrey;
+	float: left;
+	margin: 30px;
+	padding: 0px 270px 0px 0px;
+	box-shadow: inset 0 0 20px white;
 
 }
+
+img {
+	height: 100px;
+    width: 200px;
+    float: left;
+}
+
+h1 {
+	float: left;
+	margin: 30px 40px 30px 136px;
+}
+
+h2 {
+	float: left;
+	margin: 30px;
+}
+
+h4 {
+	float: left;
+	text-align: center;
+	background-color: red;
+	padding: 35px 52px 35px 52px;
+	border: 10px solid white;
+	width: 10%;
+	margin: 20px 20px 20px 400px;
+	float: left;
+	color: white;
+}
+
 
 .logo{
 	text-align: center;
 	background-color: red;
-	padding: 10px 80px 10px 80px;
+	padding: 10px 50px 10px 50px;
 	border: 10px solid white;
 	width: 10%;
-	margin: 30px;
+	margin: 20px;
+	float: left;
 
 }
 
 .savingBox {
 	display: inline-block;
 	float: left;
-	width: 20%;
-	padding: 20px 40px 20px 40px;
-	background-color: orange;
+	width: 25%;
+	padding: 5px 25px 5px 25px;
+	background-color: red;
 	border: 80px solid white;
+	margin: 0px 30px 30px 0.01px;
+	
+	box-shadow: inset 0 0 40px white;
 	}
 
 
 .checkingBox {
 	display: inline-block;
 	float: left;
-	width: 20%;
-	padding: 20px 40px 20px 40px;
-	background-color: gold;
+	width: 25%;
+	padding: 5px 25px 5px 25px;
+	background-color: red;
 	border: 80px solid white;
+	margin: 0px 30px 30px 0.01px;
+	box-shadow: inset 0 0 40px white;
 	
 }
+
+
+
+
+
+
 
 
 h3 {
@@ -69,13 +115,25 @@ input {
 }
 
 .buttons {
-text-align: center;
+	float: left;
+	display: inline-block;
+
+}
+
+.enterAmount {
+	padding: 10px 30px 10px 30px;
+	margin: 20px 30px 30px 25px;
+	box-shadow: inset 0 0 40px black;
 }
 
 
+.withdraw {
+	box-shadow: inset 0 0 10px black;
+}
 
-
-
+.deposit {
+	box-shadow: inset 0 0 10px black;
+}
 
 
 

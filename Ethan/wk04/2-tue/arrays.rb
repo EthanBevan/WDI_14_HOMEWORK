@@ -7,7 +7,6 @@ rangers = ["Red", "Blue", "Pink", "Yellow", "Black"]
 heroes = ["Earth", "Wind", "Captain Planet", "Fire", "Water", "Red", "Blue", "Pink", "Yellow", "Black"]
 
 
-binding.pry
 
 #ACESS SECOND
 #planteers[1]
@@ -24,6 +23,37 @@ binding.pry
 
 #alphabetical
 #heroes.sort()
+
+#random
+#heroes.shuffle
+
+ninja_turtle = { "Michelangelo" => name, "Nunchuks" => weapon, true => radical} 
+
+
+binding.pry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
