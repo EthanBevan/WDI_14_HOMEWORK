@@ -48,6 +48,9 @@ depositSaving.addEventListener('click', depositS)
 
 
 
+// if (Number(enterAmount.value) > Number(balanceC.textContent)) {
+// 	balanceC.textContent = '00.00'
+// }
 
 
 

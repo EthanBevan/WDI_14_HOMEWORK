@@ -1,0 +1,93 @@
+
+
+body {
+	background-image: url(http://www.mommyish.com/wp-content/uploads/2017/05/netflix.png);
+	background-size: 650px 240px;
+	
+}
+
+button {
+	color: grey;
+	margin: 160px 0px 0px 0px;
+	 border: 0px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px red;
+    	background-color: white;
+    		padding: 5px 10px 5px 10px;
+
+    
+}
+
+input {
+	color: black;
+	margin: 160px 0px 0px 215px;
+	 border: 0px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: inset 0 0 5px red;
+    	background-color: white;
+    	padding: 5px 10px 5px 10px;
+
+}
+
+a {
+	color: grey;
+	margin: 12px 20px 20px 18px;
+	display: inline-block;
+	background-color: white;
+	padding: 5px 10px 5px 10px;
+	  border: 0px solid white;
+    border-radius: 25px;
+    font-size: 8px;
+        box-shadow: inset 0 0 5px red;
+        text-decoration: none;
+
+}
+
+input.login {
+	color: white;
+}
+
+p {
+	color: grey;
+	font-size: 18px;
+	align: center;
+	width: 67%;
+	float: right;
+	background-color: black;
+	text-align: center;
+	margin: 0px 13px 0px 0px;
+	padding: 10px;
+	  border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px white;
+
+}
+
+h3 {
+	color: grey;
+	font-size: 10px
+	align: center;
+	width: 65%;
+	float: right;
+	background-color: black;
+	text-align: center;
+	margin: 10px 60px 80px 70px;
+	padding: 50px;
+	  border: 1px solid white;
+    border-radius: 25px;
+    box-shadow: inset 0 0 15px white;
+
+}
+
+div {
+	size: 30px;
+}
+
+
+
+
+
+
+
+
+

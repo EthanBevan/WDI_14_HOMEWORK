@@ -4,8 +4,8 @@ require 'pry'
 
 number1 = []
 number2 = []
-operations = ['+', '-', "*", '/']
-result = [number1 + operations + number2]
+operations = []
+
 
 
 puts('Enter First Number?')
@@ -17,8 +17,22 @@ operations = gets.chomp
 puts('Enter Second Number?')
 number2 = gets.chomp
 
-if (result = true)
-result
+
+if operations == '+'
+resultsPlus = number1 + number2
+return resultsPlus
+elsif (operations == '-')
+resultsMinus = (number1 - number2)
+return resultsMinus
+elsif (operations == '*')
+resultsTimes = (number1 * number2)
+return resultsTimes
+elsif (operations == '/')
+resultsDivide = (number1 / number2)
+return resultsDivide
+
+
+end
 
 
 
