@@ -1,0 +1,19 @@
+body {
+/*	background-image: url("https://i.giphy.com/media/PLJzdMVafDLTW/giphy.webp"); 
+	background-size: 550px;
+	font-family: arial;*/
+	background-color: red;
+}
+
+.price {
+	color: white;
+	font-size: 100px;
+	/*text-align: center*/
+	margin: 30px 20px 70px 200px;
+}
+
+.symb {
+	font-size: 100px;
+	color: white;
+	margin: 130px 20px 30px 80px;
+}

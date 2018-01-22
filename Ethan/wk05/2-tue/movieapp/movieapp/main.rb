@@ -17,11 +17,18 @@ get '/about' do
 end
 
 
+#moviedatabase
+get '/moviedatabase_directory' do
+	@movieinfo = Dish.all
+	erb :moviedatabase_directory
+end
+
 #moviedirectory
 get '/moviedirectory' do
-@moviedirectorysearch = HTTParty.get('http://omdbapi.com/?s=' + params[:movie] + '&apikey=2f6435d9')
+	@moviedirectorysearch = HTTParty.get('http://omdbapi.com/?s=' + params[:movie] + '&apikey=2f6435d9')
 	erb :moviedirectory
 end
+
 
 #movie
 get '/movie' do
