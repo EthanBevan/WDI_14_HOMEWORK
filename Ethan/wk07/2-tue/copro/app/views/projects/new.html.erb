@@ -1,0 +1,44 @@
+<h1> SUBMIT A PROJECT </h1>
+
+<form action="/projects" method="post" enctype="multipart/form-data">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	<br>
+	<label for="">Character Title:</label>
+	
+	<input type="text" name="title" placeholder="character">
+	<br>
+		<label for="">Character Image:</label>
+	<input type="file" name="preview">
+	<br>
+	<label for="">Hero, Anti-Hero, Villain:</label>
+  <select name="good_or_evil">
+  	<option value="select">select</option>
+  <option value="good">Hero</option>
+  <option value="evil">Anti-Hero</option>
+  <option value="evil">Villain</option>
+</select>
+<br>
+<br>
+	<label for="">Strength Level:</label>
+  <select name="stength">
+  	<option value="select">select</option>
+  <option value="one">1</option>
+  <option value="two">2</option>
+  <option value="three">3</option>
+  <option value="four">4</option>
+  <option value="five">5</option>
+  <option value="six">6</option>
+  <option value="seven">7</option>
+  <option value="eight">8</option>
+  <option value="nine">9</option>
+  <option value="ten">10</option>
+</select>
+<br>
+<br>
+	<label for="">Bio:</label>
+  <textarea name="bio" type="text" cols="30" rows="6" placeholder="short bio..."></textarea>
+<br>
+<br>
+	<button>Submit</button>
+
+</form>

@@ -1,0 +1,16 @@
+<h1> show dish </h1>
+
+<p><%= @dish.name %></p>
+<br>
+<br>
+
+<img src="<%= @dish.image_url %>" alt="">
+
+
+
+
+<form action="/dishes/:id<%= @dish.id %>" method="post"> 
+	<input type="hidden" name="_method" value="destroy">
+<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+<button>delete</button>
+</form>

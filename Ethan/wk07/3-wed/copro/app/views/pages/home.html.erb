@@ -1,0 +1,88 @@
+<h1> Dragon Ball Z </h1>
+<br>
+
+<h3> Click on Character for details</h3>
+<br>
+
+
+<div class="container">
+  <% @project.each do |project| %>
+  <div class="project">
+    <h2>Character: <%= project['title']%></h2>
+    <a href="/projects/<%= project.id %>"><img src="<%= project.preview.url%>" alt=""> </a> 
+    
+  </a>
+  </div>
+  <% end %>
+</div>
+
+
+<!-- <div>
+	<a href="">
+		<img src="http://via.placeholder.com/800x800" alt =""></a>
+</div>
+<div>
+	<a href="">
+		<img src="http://via.placeholder.com/800x800" alt =""></a>
+</div>
+<div>
+	<a href="">
+		<img src="http://via.placeholder.com/800x800" alt =""></a>
+</div>
+<div>
+	<a href="">
+		<img src="http://via.placeholder.com/800x800" alt =""></a>
+</div> -->
+
+
+<!-- 
+<div class="container">
+	<div class="project"></div>
+	<div class="project"></div>
+	<div class="project"></div>
+	<div class="project"></div>
+	<div class="project"></div>
+	<div class="project"></div>
+</div> -->
+
+
+
+
+<!-- 
+<div class="container">
+  <div class="project">
+    <a href="">
+      <img src="http://via.placeholder.com/800x800" alt="">
+    </a>
+  </div>
+  <div class="project">
+    <a href="">
+      <img src="http://via.placeholder.com/800x800" alt="">
+    </a>
+  </div>
+  <div class="project">
+    <a href="">
+      <img src="http://via.placeholder.com/800x800" alt="">
+    </a>
+  </div>
+  <div class="project">
+    <a href="">
+      <img src="http://via.placeholder.com/800x800" alt="">
+    </a>
+  </div>
+  <div class="project">
+    <a href="">
+      <img src="http://via.placeholder.com/800x800" alt="">
+    </a>
+  </div>
+</div> -->
+
+
+
+
+
+
+
+
+
+

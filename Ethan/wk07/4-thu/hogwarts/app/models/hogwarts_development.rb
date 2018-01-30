@@ -1,0 +1,2 @@
+class HogwartsDevelopment < ApplicationRecord
+end

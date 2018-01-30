@@ -1,0 +1,108 @@
+<h1> Dragon Ball Z Info </h1>
+
+<div class="skull-all">
+<h1><%= @project.title %></h1>
+<div class="wrapper" onclick="myFunction()">
+ <img src="<%= @project.preview.url%>" alt=""> </a>
+ <span class="skull-element" style="font-family:Wingdings"> &#x004e; </span>
+</div>
+
+<form action="/likes" method="post">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	<input type="hidden" name="project_id" value="<%= @project.id %>">
+	<span class="skull-count"><%= @project.likes.count %></span>
+<button>like</button>
+</form>
+</div>
+
+<form action="/comments" method="post">
+	<input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+	<input type="hidden" name="project_id" value="<%= @project.id %>">
+	<textarea name="body"></textarea>
+	<button>post comment</button>
+</form>
+
+<h2> Comments </h2>
+
+ <p><% @comments.each do |comment|%></p>
+
+ <p><%= comment.body %></p>
+
+ <% end %>
+
+<!--  <script>
+
+
+var skull = document.querySelector('.wrapper span');
+
+skull.addEventListener('click', function() {
+	console.log('love it!');
+
+})
+
+ </script> -->
+
+
+<script>
+	//turn yellow
+function myFunction() {
+    document.querySelector('.wrapper span').style.color = "red";
+}
+
+
+
+//New Code
+
+//Grabbed skull
+var skull = document.querySelector('.skull-element');
+//add event to skull
+skull.addEventListener('click', function(){
+
+
+//when clicked it will go down and grab the the selection that it will be changing.
+var card = event.target.closest('.skull-all'); 
+
+
+//Go up and grab likes count
+var skullCount = card.querySelector('.skull-count');
+   
+   //add 1 to the counter
+ skullCount.textContent = Number(skullCount.textContent) + 1;
+
+})
+
+//grab selector thing
+
+
+//code from other
+
+    // var stars = document.querySelectorAll('.star');
+
+    // stars.forEach(function(star){
+    // star.addEventListener('click', function(){
+
+    //   //event target
+    //   //starting from the target
+    //   //search up for ui-card
+    //   //then search down for star-count
+    //   //set textContent to existing star-count + 1
+
+    //   var card = event.target.closest('.ui-card'); 
+
+    //   // console.log(event.target)
+
+    //   var starCount = card.querySelector('.star-count')
+     
+    //   starCount.textContent = Number(starCount.textContent) + 1;
+
+    // })
+
+    // })
+
+</script>
+
+
+
+
+
+
