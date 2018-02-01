@@ -1,0 +1,15 @@
+<h1> Pokedex </h1>
+<br>
+
+<h3> Click here to enter new character</h3>
+<br>
+
+<div class="container">
+  <% @product.each do |product| %>
+  <div class="product">
+    <h2>species: <%= product['species']%></h2>
+    <h2>nickname: <%= product['nickname']%></h2>
+    <h2>level: <%= product['level']%></h2>
+  </div>
+  <% end %>
+</div>

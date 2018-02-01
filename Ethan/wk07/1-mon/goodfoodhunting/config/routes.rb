@@ -13,9 +13,7 @@ get '/dishes', to: 'dishes#index'
 
 post '/dishes', to: 'dishes#create'
 
-
 put '/dishes/edit', to: 'dishes#edit'
-
 
 delete '/dishes/:id', to: 'dishes#destroy'
 put '/dishes/:id', to: 'dishes#update'
