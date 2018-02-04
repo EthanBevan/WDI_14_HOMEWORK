@@ -1,15 +1,21 @@
-<h1> Pokedex </h1>
-<br>
+<h1> Pokedex </h1> 
 
-<h3> Click here to enter new character</h3>
-<br>
+<div class="pokeball">
+<a href="/new"><img src="https://t00.deviantart.net/vy_B0HidTGWYQ_VQhn_opDuSZeI=/fit-in/150x150/filters:no_upscale():origin()/pre00/a8aa/th/pre/f/2014/086/6/d/purrloin_no_le_gusta_pokeball_by_myatathecupcake-d7bvvd8.png
+" alt=""></a>
+</div>
+
+<h4>Click Pokeball To Add Pokemon to Pokedex</h4>
+
 
 <div class="container">
-  <% @product.each do |product| %>
+  <% @products.each do |product| %>
   <div class="product">
-    <h2>species: <%= product['species']%></h2>
-    <h2>nickname: <%= product['nickname']%></h2>
-    <h2>level: <%= product['level']%></h2>
+    <h2>Species - <%= product['species']%></h2>
+    <h2>Nickname - <%= product['nickname']%></h2>
+    <h2>Level - <%= product['level']%></h2>
+    <img src="<%= product.image %>" alt="">
+    <br>
   </div>
   <% end %>
 </div>
