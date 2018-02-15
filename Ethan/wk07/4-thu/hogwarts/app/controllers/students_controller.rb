@@ -8,4 +8,6 @@ class StudentsController < ActionController
     @student = student.find(:id)
   end
 
+
+
 end

@@ -1,12 +1,23 @@
 body {
-	background-color: goldenrod;
+	background-color: rgb(89, 175, 71);
 }
 
 h1 {
-	color: white;
+color: #2A2A2A;
 font-family: 'Shojumaru', cursive;
 text-align: center;
+background-color: white;
+ border-radius: 50px;
+  margin: 20px 300px 20px 300px;
 
+}
+
+h2 {
+    color: #2A2A2A;
+    font-family: 'Shojumaru', cursive;
+    background-color: white;
+ border-radius: 50px;
+ margin: 20px 400px 20px 400px;
 }
 
 label {
@@ -17,24 +28,35 @@ font-family: 'Shojumaru', cursive;
     box-shadow: inset 0 0 10px white;
     		padding: 5px 10px 5px 5px;
 }
+
 button {
 	color: grey;
-	margin: 10px 30px 30px 0px;
+	margin: 20px 0px 0px 0px;
 	 border: 0px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    box-shadow: inset 0 0 10px white;
+    box-shadow: inset 0 0 10px green;
     	background-color: white;
-    		padding: 5px 10px 5px 10px;
-
-    
+    		padding: 10px 25px 10px 25px;
 }
+
 
 input {
 	color: black;
 	 border: 0px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
-    box-shadow: inset 0 0 5px white;
+    box-shadow: inset 0 0 5px blue;
     	background-color: white;
-    	padding: 5px 10px 5px 10px;
+    	padding: 10px 25px 10px 25px;
 
 }
+
+.searchBar {
+    text-align: center;
+
+}
+
+.options_display {
+    text-align: center;
+}
+
+

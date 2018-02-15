@@ -27,6 +27,8 @@ INSERT INTO authors(name, nationality, birth_year) VALUES ('Adam Bray', 'United 
 
 -- for reference
 
+CREATE DATABASE hogwarts_development;
+
 CREATE DATABASE purple_cow;
 
 CREATE TABLE contacts (
