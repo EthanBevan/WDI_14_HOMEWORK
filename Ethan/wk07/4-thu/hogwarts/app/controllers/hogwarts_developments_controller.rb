@@ -1,2 +1,0 @@
-class HogwartsDevelopmentsController < ApplicationController
-end

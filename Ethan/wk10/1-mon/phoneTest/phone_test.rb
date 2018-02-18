@@ -1,14 +1,13 @@
 require 'minitest/autorun'
 require "minitest/reporters" # optional
-require_relative 'phone'
-
-
 Minitest::Reporters.use! Minitest::Reporters::SpecReporter.new() # optional
 
+require_relative 'phone'
 
 class PhoneTest < MiniTest::Test
 
   def test_cleans_number
+    skip
     number = Phone.new("(123) 456-7890").number
     assert_equal "1234567890", number
   end
@@ -50,3 +49,10 @@ class PhoneTest < MiniTest::Test
   end
 
 end
+
+
+
+
+
+
+

@@ -1,33 +1,54 @@
-	class Phone
+class Phone
 
+	def initialize (number)
+		@numb = number
 	end
 
-	def intitialize (number)
-		# @numb = number
-	end
-
-
-#split through ("(123) 456-7890") remove brackets and return "123456789" so that it equals true
+# 1.
 	def number 
-		@number = @number.split("")
-		if 
-			# @numb.map{|element| element[/\d+/]}
+		newNumber = @numb.delete "()"
 
-			@numb = number.cut(0,1);
-			@numb = number.cut(3,5);
+		newNumberTwo = newNumber.delete "-"
+
+		newNumberThree = newNumberTwo.delete " "
+	end
+
+# 2.
+	def number
+	newNumber = @numb.delete "."
+	end
+
+#3.
+	def number
+	@numb[1..-1]
+	end
+
+#4
+	def number
+	@numb[0] = '0000000000'
+	end
+
+#5 
+	def number
+	@numb[0] = '0000000000'
+	end
+
+#6 
+	def area_code 
+	@numb[0..2]
+	end
+
+#7 
+	def to_s
+	newNumber = @numb.insert(0, '(')
+
+	newNumberTwo = newNumber.insert(4, ')')
+
+	newNumberThree = newNumberTwo.insert(8, '-')
+
+	newNumberFour = newNumberThree.insert(5, ' ')
+
 	end
 
 end 
 
-	# def initialize (number)
-	# 	@numb = number
-	# end
-
-
-	# def number
-	# end
-
-
-	# def test_string_conversion
-	#   assert_equal 1, "1".to_i
-	# end
