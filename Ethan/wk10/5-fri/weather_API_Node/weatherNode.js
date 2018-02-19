@@ -17,3 +17,6 @@ request(url, function (error, response, body) {
 	console.log("Melbourne Temperature is " + roundedDegreesMelbourneTemp + " degrees")
 });
 
+// you make a crud type app and display it on page, and load a server. 
+// use crab hands 
+// crab hands run things in the backend.
