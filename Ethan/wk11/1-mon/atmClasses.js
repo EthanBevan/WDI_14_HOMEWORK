@@ -12,7 +12,7 @@ console.log(withdrawOrDeposit + " $" + input + " in my " + checkingOrSaving + " 
 //class
 class Atm {
 
-//custom class constructor. Has to be constructor? like initialize?
+//custom class constructor. Constructor is same as initialize.
 constructor(money) {
 // this.name = 'Atm'
 this.balance = money

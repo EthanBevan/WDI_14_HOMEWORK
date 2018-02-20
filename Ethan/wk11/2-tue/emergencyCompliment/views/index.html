@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body id="posts">
+
+<div> 
+<div class="htmlFile">
+
+
+<h1> Randomizing Emergency Compliment
+<br>
+<br>
+<br>
+
+<h2>
+<script>
+
+	// compliments = [
+ //  "“Hard work beats talent when talent doesn’t work hard.” – Tim Notke",
+ //  "“It’s hard to beat a person who never gives up.” – Babe Ruth",
+ //  "“The harder the battle, the sweeter the victory.” – Les Brown",
+ //  "“Never say never because limits, like fears, are often just an illusion.” – Michael Jordan",
+ //  "“You miss 100% of the shots you don’t take.” – Wayne Gretzky",
+ //  "“Winning isn’t everything, but wanting to win is.” – Vince Lombardi",
+ //  "“I’ve failed over and over and over again in my life. And that is why I succeed.” – Michael Jordan",
+ //  "“It’s not whether you get knocked down; it’s whether you get up.” – Vince Lombardi",
+ //  "“If you can believe it, the mind can achieve it.” – Ronnie Lott",
+ //  "“Without self-discipline, success is impossible, period.” – Lou Holtz",
+ //  "“If you aren’t going all the way, why go at all?” – Joe Namath",
+ //  "“Do not let what you can not do interfere with what you can do.” – John Wooden",
+ //  ]
+
+compliments = [
+      'You look nice today',
+      'Fancy seeing you here',
+      'Have you been working out?',
+      'Hello, good looking.',
+      'I would share my dessert with you.',
+      'I feel the need to impress you.',
+      'You could probably lead a rebellion.',
+      'Being awesome is hard, but you\'ll manage.',
+      'My mom always asks me why I can\'t be more like you',
+      'The Force is strong with you.',
+      'You complete me',
+      'Glorious things are waiting for you.',
+      'You\'re crazy hygienic, always brushing and flossing',
+      'Your eyes are hella disarming',
+      'You have a great sense of humor - that\'s personality',
+      'You\'re a good listener even when you\'re exhausted'
+]
+
+
+
+var randomComplimentOne = compliments[Math.floor(Math.random() * compliments.length)]
+
+document.write(randomComplimentOne)
+
+//Random color
+
+                colors = ["Aqua","Aquamarine","Bisque","Black","Blue","BlueViolet","Brown","BurlyWood","CadetBlue","Chartreuse","Chocolate","Coral","CornflowerBlue","Crimson","Cyan","DarkBlue","DarkCyan","DarkGoldenRod","DarkGray","DarkGrey","DarkGreen","DarkKhaki","DarkMagenta","DarkOliveGreen","Darkorange","DarkOrchid","DarkRed","DarkSalmon","DarkSeaGreen","DarkSlateBlue","DarkSlateGray","DarkSlateGrey","DarkTurquoise","DarkViolet","DeepPink","DeepSkyBlue","DimGray","DimGrey","DodgerBlue","FireBrick","ForestGreen","Fuchsia","Gainsboro","Gold","GoldenRod","Gray","Grey","Green","GreenYellow","HotPink","IndianRed","Indigo","Khaki","LawnGreen",,"LightBlue","LightCoral","LightCyan","LightGray","LightGrey","LightGreen","LightPink","LightSalmon","LightSeaGreen","LightSkyBlue","LightSlateGray","LightSlateGrey","LightSteelBlue","Lime","LimeGreen","Magenta","Maroon","MediumAquaMarine","MediumBlue","MediumOrchid","MediumPurple","MediumSeaGreen","MediumSlateBlue","MediumSpringGreen","MediumTurquoise","MediumVioletRed","MidnightBlue","MistyRose","Moccasin","NavajoWhite","Navy","Olive","OliveDrab","Orange","OrangeRed","Orchid","PaleGoldenRod","PaleGreen","PaleTurquoise","PaleVioletRed","PeachPuff","Peru","Pink","Plum","PowderBlue","Purple","Red","RosyBrown","RoyalBlue","SaddleBrown","Salmon","SandyBrown","SeaGreen","Sienna","Silver","SkyBlue","SlateBlue","SlateGray","SlateGrey","SpringGreen","SteelBlue","Tan","Teal","Thistle","Tomato","Turquoise","Violet","Wheat","Yellow","YellowGreen"];
+
+                // colors = ["#FEB014", "#FE2525","#33BF33","#2F6EED", "#FEE43C", "#FE4CE6", "#4ADFB7", "#010000"]
+
+                var randomColorSelected = colors[Math.floor(Math.random() * colors.length)]
+                
+                document.getElementById('posts').style.background = randomColorSelected; // Setting the random color on your div element.
+           
+
+</script>
+<!-- <%=  %> -->
+</h2>
+
+
+</h1>
+
+
+
+<style>
+
+body {
+	background-color: green;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+.htmlFile {
+	text-align: center;
+}
+
+</style>
+
+</div>
+
+</div>
+	
+</body>
+</html>
+
+
+

@@ -1,0 +1,18 @@
+{
+  "name": "emergencyCompliment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "emergencyCompliment.js",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "nodemon": "^1.15.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon emergencyCompliment.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
